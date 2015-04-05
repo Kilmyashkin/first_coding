@@ -1,0 +1,1379 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700,400italic,700italic&subset=latin,cyrillic-ext);
+html{
+	font-family: 'PT Sans Caption';
+}
+
+body {
+	background-color: #e5ece6;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.page {
+  min-height:100%;
+  position:relative;
+}
+
+header {
+	height: 40px;
+	background-color: #3ccb6f;
+	width: 100%;
+}
+
+.content_all {
+	height: 2467px;
+  	padding-bottom: 288px;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.wrapper_old {
+	width: 939px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 140px;
+	height: 44px;
+	float: left;
+	margin-bottom: -10px;
+}
+
+.name img {
+	float: right;
+    position: relative;
+    top: 4px;
+}
+.name {
+	float:right;
+	padding-top: 8px;
+	padding-right: 9px;
+	padding-left: 9px;
+	border-radius: 4px;
+	background-color:  #41db78;
+	box-shadow: 1px 2px 0px 0px #33b061;
+	height: 25px;
+	margin-top: 6px;
+	box-sizing: border-box;
+}
+.name p {
+	color: #ffffff;
+	font-size: 14px;
+	float:left;
+	text-align: left;
+	line-height: 11px;
+	padding-right: 9px;
+}
+
+.currency {
+	width: 43px;
+	height: 11px;
+	float: right;
+	margin-top: 16px;
+	margin-right: 11px;
+}
+.currency p {
+	line-height: 11px;
+	color:  #ffffff;
+	font-size: 14px;
+	float: left;
+	display: inline-block;
+}
+.currency img {
+	float: right;
+	position: relative;
+	top: 3px;
+
+}
+
+.slider {
+	background: url("trip/Dubay.jpg");
+	position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+.grad {
+	background-image: -moz-linear-gradient( 90deg, rgb(229,236,230) 0%, rgba(229,236,230,0) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(229,236,230) 0%, rgba(229,236,230,0) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(229,236,230) 0%, rgba(229,236,230,0) 100%);
+	position: absolute;
+	bottom: 0;
+	top: 245px;
+	width: 100%;
+}
+
+.navigation {
+	width: 88px;
+	height: 16px;
+	position: relative;
+	top: 514px;
+	left: 58px;
+}
+
+
+.navigation li {
+	display: inline;
+	float: left;
+	margin-right: 9px;
+}
+
+.navigation_apartments li {
+	display: inline;
+	float: left;
+	margin-right: 9px;
+}
+
+.navigation_apartments {
+	position: relative;
+	top: -42px;
+	left: 30px;
+}
+
+.all_information {
+	height: 2038px;
+	position: relative;
+	top: 500px;
+}
+
+.left{
+	float:left;
+	width: 264px;
+}
+
+.trip_developers {
+	border-radius: 5px;
+    background-color:  #ffffff;
+	width: 264px;
+	height: 194px;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 16px;
+	padding-bottom: 18px;
+	box-sizing: border-box;
+}
+
+.ava {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 25px;
+}
+
+.city {
+	float: left;
+	color:  #6c7b7b;
+	font-size: 12px; 
+	line-height: 15px; 
+	text-align: left;
+	margin-top: 16px;
+	margin-bottom: 14px;
+}
+
+.trip_developers .mail {
+	float: left;
+	border-radius: 4px;
+	background-color:  #ffd160;
+	box-shadow: 1px 2px 0px 0px #e6bd57;
+	width: 224px;
+	height: 27px;
+	padding-left: 50px;
+	padding-top: 9px;
+	box-sizing: border-box;
+
+}
+
+.trip_developers .mail p {
+	display: block;
+	color:  #ffffff;
+	font-size: 13px; 
+	font-weight: 700;
+	text-align: left;
+}
+
+
+.trip_developers .type {
+	color:  #6c7b7b;
+	font-size: 10px; 
+	line-height: 20px; 
+	text-align: left;
+}
+
+.trip_developers .developer {
+	color:  #6c7b7b;
+	font-size: 14px; 
+	font-weight: 700;
+	line-height: 18px; 
+	text-align: left;
+}
+
+.tips {
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 264px;
+	height: 237px;
+	margin-top: 16px;
+	padding-top: 21px;
+	padding-bottom: 18px;
+	padding-right: 20px;
+	padding-left: 20px; 
+	box-sizing: border-box;
+}
+
+.tips p {
+	color: #6c7b7b;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: left;
+}
+
+.cross {
+	position: relative;
+ 	top: -17px;
+  	left: 118px;
+}
+
+.center {
+	float: left;
+	width: 600px;
+	margin-left: 21px;
+}
+
+.general_informatiom {
+	padding-left: 32px;
+	padding-top: 18px;
+	padding-right: 21px;
+	padding-bottom: 21px;
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 600px;
+	height: 276px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.trip_name {
+	color:  #6c7b7b;
+	font-size: 28px; 
+	font-weight: 700;
+	line-height: 32px;
+	text-align: left;
+}
+
+.trip_place {
+	color:  #6c7b7b;
+	font-size: 12px; 
+	line-height: 20px; 
+	text-align: left;
+}
+
+
+
+.trip_type {
+	margin-left: 29px;
+	margin-top: 46px;
+    border-radius: 10px;
+  	background-color: #ebf0f1;
+    width: 95px;
+    height: 21px;
+    float: left;
+}
+
+.trip_type p {
+	color: #6c7b7b;
+  	font-size: 10px;
+  	text-align: left;
+  	margin-top: 7px;
+  	margin-left: 32px;
+}
+
+.trip_image {
+	float:left;
+	margin-top: 43px;
+	margin-left: -123px;
+
+}
+
+.trip-include_block {
+	height: 45px;
+  	width: 175px;
+  	margin-top: 54px;
+  	margin-left: 159px;
+  	margin-bottom: 30px;
+}
+
+.trip_include {
+	color: #6c7b7b;
+	font-size: 9.875px;
+	line-height: 11.884px;
+	text-align: left;
+}
+
+
+.include_images {
+	padding-right: 5px;
+ 	margin-top: 5px;
+}
+
+.include_images li {
+	display: inline;
+}
+
+.describe {
+	color: #6c7b7b;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+}
+.describe span {
+	color: #1081de;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.calendar {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color:  #ebf0f1;
+	border-style: solid;
+	width: 178px;
+	height: 150px;
+	float: right;
+	margin-top: -52px;
+}
+
+.days {
+	color: #6c7b7b;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: left;
+	margin-top: 9px;
+	margin-left: 12px;
+}
+
+.date {
+	margin-left: 12px;
+	margin-top: 9px;
+	color:  #6c7b7b;
+	font-size: 9.99px; /* Приближение из-за подстановки шрифтов */
+	line-height: 20.563px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	transform: scaleY(1.0012); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.calendar_table {
+	margin-left: 11px;
+ 	margin-right: -2px;
+  	margin-bottom: 9px;
+}
+
+.calendar_table th {
+	color: #6c7b7b;
+	font-size: 11.989px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	transform: scaleY(1.0012);
+	padding-right: 9px;
+	padding-bottom: 7px;
+}
+
+.calendar_table td {
+	color: #7b9191;
+	font-size: 9.99px;
+	padding-bottom: 6px;
+	text-align: left;
+	transform: scaleY(1.0012);
+}
+
+.a_14 {
+	color: #ffffff;
+	font-size: 9.99px;
+	text-align: left;
+	transform: scaleY(1.0012);
+}  
+
+.green_right {
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	background-color:  #41db78;
+	width: 70px;
+	position: absolute;
+  	top: 102px;
+  	left: 785px;
+	height: 17px;
+}
+
+.green_left {
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #41db78;
+	width: 93px;
+	height: 17px;
+	position: absolute;
+ 	top: 119px;
+ 	left: 693px;
+}
+
+.trip_map {
+	background-color:  #ffffff;
+	width: 600px;
+	height: 82px;
+	margin-top: 19px;
+	margin-bottom: 3px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 17px;
+	box-sizing: border-box;
+}
+
+.trip_map p:first-child {
+	color: #6c7b7b;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: left;
+}
+
+.trip_map p:nth-child(2) {
+	color: #6c7b7b;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+	margin-top: 9px;
+}
+
+.fly_dubay_all {
+	background-color:  #ffffff;
+	width: 600px;
+	height: 187px;
+	margin-bottom: 3px;
+}
+
+.trip_map_top {
+	background-color:  rgba(248, 250, 250, 0.8);
+	width: 600px;
+	height: 50px;
+	padding-top: 19px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+.flight {
+	color: #6c7b7b;
+	font-size: 14px;
+	font-weight: 700;;
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.left_block {
+	float: left;
+	margin-left: 30px;
+}
+
+.tripadvisor {
+	color:  #569242;
+	font-size: 14px; 
+	line-height: 14px; 
+	text-align: left;
+}
+
+.booking {
+	color:  #009fe2;
+	font-size: 14px; 
+	line-height: 14px; 
+	text-align: left;
+}
+
+.center_block {
+	float: left;
+	margin-left: 70px;
+}
+
+.center_block img {
+	margin-top: 24px;
+}
+
+.center_block .font_2 {
+	margin-top: 14px;
+}
+
+.right_block {
+	float: left;
+	margin-left: 70px;
+}
+
+.font_1 {
+	color: #6c7b7b;
+	font-size: 22px;
+	text-align: left;
+	margin-top: 17px;
+}
+
+.font_2 {
+	color: #6c7b7b;
+	font-size: 14px;
+	text-align: left;
+	margin-top: 8px;
+}
+
+.font_3 {
+	color: #6c7b7b;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.apartments_left {
+	float:left;
+	margin-left: 30px;
+	margin-top: 19px;
+}
+
+.apartments_left p {
+	color: #6c7b7b;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: left;
+}
+
+.apartments_center {
+	float: left;
+	margin-left: 33px;
+	margin-top: 84px;
+}
+
+.apartments_right {
+	float: left;
+	margin-left: 22px;
+	margin-top: 19px;
+}
+
+.apartments_right p {
+	color: #6c7b7b;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: left;
+}
+
+.nutrition {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #3cc96e;
+	border-style: solid;
+	background-color: rgba(60, 201, 110, 0);
+	width: 124px;
+	height: 40px;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.nutrition img {
+	float:left;
+	margin-top: 12px;
+	margin-left: 9px;
+	margin-right: 5px;
+}
+
+.wi-fi {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color:  #3cc96e;
+	border-style: solid;
+	background-color:  rgba(60, 201, 110, 0);
+	width: 69px;
+	height: 22px;
+	margin-top: -4px;
+}
+
+.wi-fi img {
+	float:left;
+	margin-top: 4px;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.pool {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #3cc96e;
+	border-style: solid;
+	background-color: rgba(60, 201, 110, 0);
+	width: 92px;
+	height: 22px;
+	float: left;
+	margin-right: 9px;
+}
+
+.pool img {
+	float:left;
+	margin-top: 4px;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.bar {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #ffd160;
+	border-style: solid;
+	background-color: rgba(60, 201, 110, 0);
+	width: 56px;
+	height: 22px;
+	float: left;
+}
+
+.bar img {
+	float:left;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.fitness {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: rgba(108, 123, 123, 0.5);
+	border-style: solid;
+	background-color: rgba(60, 201, 110, 0);
+	width: 79px;
+	height: 22px;
+	margin-left: 174px;
+}
+
+.fitness img {
+	float:left;
+	margin-top: 4px;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.apartments_second {
+	margin-top: 6px;
+	margin-bottom: 33px;
+}
+
+.apartments_title {
+	color: #6c7b7b;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+#name_badges {
+	color: #6c7b7b;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 4px;
+}
+
+#id_fitness {
+	color: #6c7b7b;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: left;	
+}
+
+.first_img {
+	position: relative;
+  	top: -8px;
+  	left: -310px;
+}
+
+.second_img {
+	position: relative;
+  	top: -8px;
+  	right: 337px;
+}
+
+.third_img {
+	float: left;
+	margin-left: -44px;
+	margin-top: -8px;
+}
+
+#fourth_img {
+	position: relative;
+  	top: -48px;
+  	left: -299px;
+}
+
+#fifth_img {
+	position: relative;
+  	top: -40px;
+  	left: -290px;
+}
+ 
+.trip_map_top_name_1 {
+	color: #24a9e0;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	float: left;
+}
+
+.trip_map_top_name_2 {
+	color: #bb9431;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	float: left;
+}
+
+.trip_map_top_name_3 {
+	color: #7b9191;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	float: left;
+}
+
+.included_in_price {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #3cc96e;
+	border-style: solid;
+	background-color: #41db78;
+	width: 149px;
+	height: 20px;
+	float: right;
+  	margin-right: -11px;
+  	margin-top: -7px;
+}
+
+#included_in_price {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #3cc96e;
+	border-style: solid;
+	background-color: #41db78;
+	width: 149px;
+	height: 20px;
+	float: right;
+  	margin-right: -11px;
+  	position: relative;
+  	top: -39px;
+}
+
+#included_in_price p {
+	color:  #ffffff;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: left;
+	float: left;
+	margin-left: 9px;
+	font-weight: 700;
+}
+
+
+
+.included_in_price p {
+	color:  #ffffff;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: left;
+	float: left;
+	margin-left: 9px;
+	font-weight: 700;
+}
+
+
+.apartments {
+	background-color:  #ffffff;
+	width: 600px;
+	height: 517px;
+}
+
+
+.in_city {
+	margin-top: 5px;
+	margin-bottom: 3px;
+	background-color:  #ffffff;
+	width: 600px;
+	height: 274px;
+}
+
+.all_about_city {
+	margin-right: 19px;
+	margin-top: 19px;
+	margin-left: 30px;
+	color: #6c7b7b;
+	font-size: 13px;
+	line-height: 19px;
+	text-align: left;
+}
+
+.best_club {
+	background-color:  #ffffff;
+	width: 600px;
+	height: 142px;
+}
+
+.best_club img {
+	position: relative;
+  	top: -7px;
+  	left: -68px;
+}
+
+.best_club p {
+  	left: 28px;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px; 
+	text-align: left;
+	position: relative;
+  	top: -77px;
+}
+
+.best_club_description {
+	margin-left: 30px;
+	margin-top: -41px;
+	margin-right: 52px;
+	color: #6c7b7b;
+	font-size: 13px;
+	line-height: 19px;
+	text-align: left;
+}
+
+.fly_kiev {
+	margin-top: 3px;
+	background-color:  #ffffff;
+	width: 600px;
+	height: 376px;
+}
+
+.fly_top {
+	background-color:  rgba(248, 250, 250, 0.8);
+	width: 600px;
+	height: 50px;
+}
+
+.fly_top img {
+	position: relative;
+}
+
+.fly_to_kiev{
+	color:  #24a9e0;
+	font-size: 16px; 
+	font-weight: 700;
+	line-height: 20px; 
+	text-align: left;
+	position: relative;
+ 	top: -37px;
+ 	left: 30px;
+ 	float: left;
+}
+
+.docking {
+	margin-left: 15px;
+	margin-top: 103px;
+	padding-top: 3px;
+	padding-left: 11px;
+	border-width: 2px;
+	border-color: rgba(123, 145, 145, 0.2);
+	border-style: solid;
+	width: 384px;
+	height: 30px;
+	color: #6c7b7b;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.tail {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color:  #ffffff;
+	width: 600px;
+	height: 74px;
+	margin-top: 3px;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+
+.tail p {
+	color: #6c7b7b;
+	font-size: 12px;
+	text-align: left;
+	line-height: 16px;
+}
+
+
+.right {
+	float: right;
+	width: 265px;
+}
+
+.up {
+	position: absolute;
+  	top: -37px;
+  	border-radius: 4px;
+  	background-color: #f6f8f8;
+  	box-shadow: 0px 1px 0px 0px #cfd2d3;
+  	width: 200px;
+  	height: 40px;
+ 	padding-left: 12px;
+  	padding-right: 12px;
+}
+
+.up p {
+	position: relative;
+  	top: 10px;
+	color: #6c7b7b;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: left;
+}
+
+.up img {
+	position: relative;
+	top: 8px;
+  	left: -1px;
+}
+
+.select_options {
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 265px;
+	height: 448px;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.starting_point {
+	color: #7b9191;
+  	font-size: 12px;
+  	text-align: left;
+  	float: left;
+}
+
+.why_hover {
+  	margin-top: -8px;
+ 	margin-right: 103px;
+}
+
+.from {
+	border-radius: 4px;
+  	background-color: #ebf0f1;
+  	width: 225px;
+  	height: 28px;
+  	margin-top: 8px;
+  	padding-bottom: 5px;
+  	box-sizing: border-box;
+}
+
+.from p {
+	color: #6c7b7b;
+  	position: relative;
+  	top: 6px;
+  	font-size: 14px;
+  	line-height: 18px;
+  	text-align: left;
+  	margin-left: 11px;
+}
+
+.from img {
+	position: relative;
+  	top: -14px;
+  	left: 98px;
+}
+
+.travelers {
+    color: #7b9191;
+  	font-size: 12px;
+  	text-align: left;
+  	float: left;
+  	margin-top: 20px;
+  	margin-bottom: 6px;
+}
+
+.why {
+	float: left;
+	margin-top: 12px;
+	margin-left: 3px;
+}
+
+.why_2 {
+	margin-top: 12px;
+	float: left;
+	margin-left: 3px;
+
+}
+
+.travelers_hotel {
+  	color: #7b9191;
+  	font-size: 12px;
+  	text-align: left;
+  	float: left;
+  	margin-top: 20px;
+  	margin-left: 12px;
+  	margin-bottom: 6px;
+}
+
+.when_travelers {
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background-color:  #ebf0f1;
+	width: 76px;
+	height: 30px;
+	float: left;
+	padding-top: 6px;
+  	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.when_travelers p {
+	color:  #6c7b7b;
+	font-size: 14px; 
+	line-height: 18px; 
+	text-align: left;
+}
+
+.when_room {
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background-color:  #ebf0f1;
+	width: 78px;
+	height: 30px;
+	float: left;
+	margin-left: 12px;
+	padding-top: 6px;
+  	padding-left: 8px;
+  	box-sizing: border-box;
+}
+
+.when_room p {
+	color:  #6c7b7b;
+	font-size: 14px; 
+	line-height: 18px; 
+	text-align: left;
+}
+
+.more-less {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	background-color:  #d8dedf;
+	width: 27px;
+	height: 30px;
+	float: left;
+	margin-left: 1px;
+}
+
+.more-less p {
+	color:  #6c7b7b;
+	font-size: 14px;
+	line-height: 10px; 
+	text-align: center;
+	margin-top: 2px;
+  	margin-bottom: -4px;
+}
+
+.line {
+	border-width: 1px;
+	border-color:  #c9cecf;
+	border-style: solid;
+	width: 24px;
+	height: 1px;
+	margin-bottom: -2px;
+  	margin-top: 7px;
+}
+
+.total {
+  	color: #6c7b7b;
+  	font-size: 20px;
+  	font-weight: 700;
+  	line-height: 20px;
+  	text-align: left;
+  	float: left;
+  	margin-top: 32px;
+  	margin-bottom: 23px;
+}
+
+.why_3 {
+	float: left;
+	margin-top: 25px;
+}
+
+
+.total_m {
+	color: #6c7b7b;
+  	font-size: 22px;
+  	font-weight: 700;
+  	line-height: 20px;
+  	text-align: right;
+  	float: right;
+  	margin-top: 29px;
+  	margin-bottom: 26px;
+}
+
+
+.potter {
+	float: right;
+	margin-top: 29px;
+	margin-right: 7px;
+}
+
+.tickets {
+  	height: 148px;
+  	width: 138px;
+  	float: left;
+}
+
+.tickets p {
+	color: #6c7b7b;
+  	font-size: 11.985px;
+  	line-height: 16px;
+  	text-align: left;
+  	transform: scaleY(1.0013);
+  	margin-bottom: 14px;
+}
+
+.quantity {
+	float: right;
+}
+
+.quantity p {
+  	color: #6c7b7b;
+  	font-size: 13.982px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	text-align: right;
+  	transform: scaleY(1.0013);
+  	margin-top: 13px;
+}
+
+.quantity p:nth-child(2) {
+	margin-top: 27px;
+}
+
+.quantity p:nth-child(3) {
+	margin-top: 13px;
+}
+
+.quantity p:nth-child(4) {
+	margin-top: 29px;
+}
+.buy_trip {
+	background-color: #41db78;
+	box-shadow: 1px 2px 0px 0px #3ac26a;
+	width: 225px;
+	height: 39px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 17.969px;
+  	font-weight: 700;
+  	text-align: center;
+  	transform: scaleY(1.0016);
+  	margin-top: 327px;
+  	padding-top: 12px;
+  	box-sizing: border-box;
+}
+
+footer {
+	background-color:  #ffffff;
+	height: 218px;
+    width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.footer_top {
+	background-color:  #f4f4f4;
+	height: 50px;
+}
+
+.number img {
+	float: left;
+	margin-top: 16px;
+	display: inline-block;
+}
+
+.number p {
+	float: left;
+	margin-top: 22px;
+	margin-left: 11px;
+	color:  #7b9191;
+	font-size: 14px; 
+	line-height: 11px; 
+	display: inline-block;
+}
+
+.mail_footer img {
+	float: left;
+	margin-left: 89px;
+	margin-top: 14px;
+	display: inline-block;
+}
+
+.mail_footer p {
+	color: #7b9191;
+	font-size: 14px;
+	line-height: 11px;
+	margin-top: 20px;
+	margin-left: 9px;
+	display: inline-block;
+	float: left;
+}
+
+.social img {
+	display: inline-block;
+	float: right;
+	margin-top: 14px;
+	margin-left: 89px;
+}
+
+.coffe p {
+	display: inline-block;
+	float: right;
+	color: #7b9191;
+	font-size: 14px;
+	line-height: 11px;
+	text-align: left;
+	margin-top: 21px;
+}
+
+.coffe img {
+	float: right;
+	margin-right: 9px;
+	margin-top: 11px;
+}
+
+.footer_down {
+	padding: 38px;
+	height: 92px;
+}
+
+.left_side {
+	float: left;
+	width: 235px;
+	border-right: 1px dashed #e5e9e9;
+
+}
+
+.left_side ul {
+	list-style: none;
+}
+
+.left_side li {
+  	font-size: 14px;
+  	text-align: left;
+  	margin-bottom: 11px;
+  	color:  #7b9191;
+	font-weight: bold;
+}
+
+.left_side li:last-child {
+	margin-bottom: 2px;
+}
+
+.right_side {
+	float: right;
+  	width: 651px;
+  	height: 90px;
+  	padding-left: 52px;
+}
+
+.line1_clearfix {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.left_side_2 {
+ 	float: left;
+ 	width: 510px;
+  	font-size: 12px;
+  	line-height: 18px;
+  	font-family: Ubuntu;
+	color:  #7b9191;
+	font-weight: 400;
+	text-align: left;
+}
+
+.right_side_2 {
+	float: right;
+}
+
+.payment_img {
+	margin-top: 10px;
+	height: 45px;
+}
+
+.master_card {
+	display: inline-block;
+  	margin-right: 50px;
+  	width: 85px;
+  	height: 32px;
+}
+
+.pci {
+	display: inline-block;
+  	margin-right: 50px;
+  	width: 86px;
+  	height: 35px;
+}
+
+.visa {
+	display: inline-block;
+  	margin-right: 50px;
+	height: 43px;
+ 	width: 73px;
+}
+
+.payment_img li:last-child {
+	display: inline-block;
+  	margin-right: 0px;
+  	float: right;
+  	margin-left: 162px;
+  	margin-top: 6px;
+}
+
+.fast_trip {
+	width: 80px;
+  	height: 18px;
+}
+
+.flat_project {
+	font-size: 10px;
+  	float: left;
+  	margin-top: 7px;
+  	color:  #90a3a2;
+	line-height: 22px; 
+}
+
+.spiral {
+	width: 194px;
+  	height: 103px;
+  	margin-left: 398px;
+  	position: relative;
+  	bottom: 80px;
+}
